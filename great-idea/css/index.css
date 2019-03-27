@@ -64,3 +64,167 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+body {
+	width: 880px;
+	margin: 0 auto;
+}
+
+/* why doesn't the margin-top property work on header nav to lower the nav bar? */
+header {
+	margin-top: 20px;
+	padding: 5px;
+}
+header {
+	display:flex;
+	justify-content: space-between;
+	font-size: larger;
+}
+
+header nav a {
+	text-decoration: none;
+	color: lightgray;
+}
+
+header nav {
+	margin-top: 13px;
+	width: 600px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.logo {
+	margin-left: 60px;
+}
+
+section.top-section {
+	margin: 100px 0;
+	display: flex;
+	justify-content: space-around;
+}
+
+h1 {
+	text-align: center;
+	font-size: 90px;
+}
+
+div.top-section-text {
+	display:flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.get-started {
+	border: 1px solid black;
+	padding: 10px;
+	margin-top: 10px;
+	width: 200px;
+	font-size: 20px;
+	background-color: white;
+}
+
+h2 {
+	font-size: x-large;
+}
+
+main p {
+	font-size: large;
+}
+
+.top-columns {	
+
+	display: flex; 
+	justify-content: space-between;
+}
+
+.features, .about {
+	width: 430px;
+	margin: 40px 0;
+}
+
+.bottom-columns {
+	display: flex;
+	justify-content: space-between;
+}
+
+.services, .product, .vision {
+	width: 270px;
+	margin: 40px 0;
+}
+
+
+footer {
+	margin-top: 60px;
+}
+
+.street-address {
+	margin-bottom: 20px;
+}
+
+.tel {
+	margin-bottom: 20px;
+}
+
+small {
+	margin: 100px 0;
+	display: block;
+	text-align: center;
+}
+
+/* Services Page */
+
+.services-header-img {
+	margin: 30px 0;
+}
+
+.services-header {
+	margin-bottom: 30px;
+	line-height: 120%;
+}
+
+main.services-main {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin-top: 30px;
+	line-height: 120%;
+}
+
+.services-main-box {
+	border: 1px solid black;
+	width: 400px;
+	padding: 15px;
+	margin-bottom: 30px;
+	background-color: #f4f3f4;
+}
+
+main.services-main p {
+	font-size: 100%;
+}
+
+button.services-button {
+	background-color: white;
+	margin-top: 18px;
+	padding: 10px 40px;
+	border: 1px solid black;
+	border-radius: 5px;
+}
+
+section.services-bottom-content {
+	display: flex;
+	justify-content: space-between;
+	line-height: 120%;
+	margin-top: 30px;
+}
+
+div.services-bottom-content-text {
+	width: 400px;
+}
+
+ul.services-bottom-content-list {
+	list-style: square inside none;
+	margin-top: 30px;
+}
+
+
+
