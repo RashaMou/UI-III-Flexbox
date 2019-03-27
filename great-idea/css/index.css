@@ -184,7 +184,9 @@ small {
 	text-align: center;
 }
 
-/* Services Page */
+/* ////////////// */
+/* SERVICES PAGE */
+/* //////////// */
 
 .services-header-img {
 	margin: 30px 0;
@@ -245,6 +247,43 @@ ul.services-bottom-content-list {
 .services-info-img {
 	box-shadow: 0 10px 10px lightgray;
 }
+
+section.contact-us-top-content {
+	margin-top: 140px;
+	margin-bottom: 30px;
+}
+
+.contact-section {
+	margin-top: 30px;
+	display: flex;
+	justify-content: space-between;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	border: 1px solid lightgrey;
+	padding: 20px;
+	box-shadow: 0 10px 10px lightgray;
+	width: 400px;
+}
+
+label {
+	display: flex;
+	padding: 5px 0;
+}
+
+input:focus, textarea:focus {
+  border-color: #000;
+}
+
+button.contact-button {
+	padding: 5px;
+	margin-top: 10px;
+	background-color: white;
+}
+
 
 
 
