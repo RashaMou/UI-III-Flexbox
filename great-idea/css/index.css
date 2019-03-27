@@ -248,8 +248,17 @@ ul.services-bottom-content-list {
 	box-shadow: 0 10px 10px lightgray;
 }
 
+/* //////////// */
+/* CONTACT PAGE */
+/* //////////// */
+
+img.contact-header-img {
+	margin-top: 128px;
+	box-shadow: 0 10px 10px lightgray;
+}
+
 section.contact-us-top-content {
-	margin-top: 140px;
+	margin-top: 30px;
 	margin-bottom: 30px;
 }
 
