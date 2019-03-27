@@ -54,7 +54,7 @@ table {
 
 html, body {
     height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+		font-family: 'Titillium Web', sans-serif;
 }
 
 h1, h2, h3, h4, h5 {
@@ -72,18 +72,29 @@ body {
 
 /* why doesn't the margin-top property work on header nav to lower the nav bar? */
 header {
-	margin-top: 20px;
-	padding: 5px;
+	/* margin-top: 20px; */
+	padding: 20px 30px 30px 30px;
 }
 header {
 	display:flex;
 	justify-content: space-between;
 	font-size: larger;
+	box-shadow: 0 4px 4px lightgray;
+	position: fixed;
+	top: 0;
+	z-index: 1;
+	background-color: white;
+	width: 880px;
 }
 
 header nav a {
 	text-decoration: none;
 	color: lightgray;
+}
+
+header nav a:hover {
+	color: black;
+	font-size: 20px;
 }
 
 header nav {
@@ -98,7 +109,8 @@ header nav {
 }
 
 section.top-section {
-	margin: 100px 0;
+	margin-top: 160px;
+	margin-bottom: 90px;
 	display: flex;
 	justify-content: space-around;
 }
@@ -121,14 +133,11 @@ div.top-section-text {
 	width: 200px;
 	font-size: 20px;
 	background-color: white;
+	box-shadow: 0 10px 10px lightgray;
 }
 
 h2 {
 	font-size: x-large;
-}
-
-main p {
-	font-size: large;
 }
 
 .top-columns {	
@@ -140,6 +149,10 @@ main p {
 .features, .about {
 	width: 430px;
 	margin: 40px 0;
+}
+
+.middle-img {
+	box-shadow: 0 10px 10px lightgray;
 }
 
 .bottom-columns {
@@ -175,9 +188,11 @@ small {
 
 .services-header-img {
 	margin: 30px 0;
+	box-shadow: 0 10px 10px lightgray;
 }
 
 .services-header {
+	margin-top: 100px;
 	margin-bottom: 30px;
 	line-height: 120%;
 }
@@ -191,7 +206,8 @@ main.services-main {
 }
 
 .services-main-box {
-	border: 1px solid black;
+	border: 1px solid lightgray;
+	box-shadow: 0 10px 10px lightgray;
 	width: 400px;
 	padding: 15px;
 	margin-bottom: 30px;
@@ -224,6 +240,10 @@ div.services-bottom-content-text {
 ul.services-bottom-content-list {
 	list-style: square inside none;
 	margin-top: 30px;
+}
+
+.services-info-img {
+	box-shadow: 0 10px 10px lightgray;
 }
 
 
